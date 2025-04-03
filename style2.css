@@ -10,17 +10,22 @@ body{
     color: rgb(255, 255, 255);
 
 
+    .btn{
+        padding: 15px 30px;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 0.8); /* Cor do botão com transparência */
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        margin-top: 50px;
+        transition: 0.5s;
+        box-shadow:5px 5px 8px  #1f76e7;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+         transform: scale(1.05);
+    }
 
-    .btn{ padding: 15px 30px; font-size: 18px;
-         background-color: rgba(0, 0, 0, 0.8); /* Cor do botão com transparência */
-          color: rgb(255, 255, 255); border: none;
-           border-radius: 5px; cursor: pointer;
-            text-decoration: none;
-             margin-top: 50px;
-             transition: 0.5s;
-              box-shadow:5px 5px 8px  #1f76e7;
-               transition: transform 0.3s ease, box-shadow 0.3s ease; 
-               transform: scale(1.05);
     h1 {
         font-size: 50px;
         color: white;
