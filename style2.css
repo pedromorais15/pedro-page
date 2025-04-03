@@ -11,17 +11,17 @@ body{
 
 
 
-    }
-    button {
-        background: #3498db;
+    .button {
+        background: linear-gradient(45deg, #ff7e5f, #feb47b);
         color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
-        transition: background 0.3s ease-in-out;
+        padding: 12px 24px;
+        border-radius: 30px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease-in-out;
     }
     
     button:hover {
-        background: #2980b9;
+        transform: translateY(-3px);
     }
     h1 {
         font-size: 50px;
