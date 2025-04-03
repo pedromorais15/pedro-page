@@ -56,14 +56,3 @@ footer{
 }
 
 
-.card img{
-width: 270px;
-object-fit: :cover;
-}
-.card h2{
-    margin: 15px 0 ;
-}
-.card p {
-    font-size: 12px;
-    font-size: 15px;
-}
